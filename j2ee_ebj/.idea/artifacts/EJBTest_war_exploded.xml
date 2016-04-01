@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EJBTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/EJBTest_war_exploded.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EJBTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/EJBTest/web/WEB-INF/lib/junit-4.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/EJBTest/web/WEB-INF/lib/jboss-client.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/EJBTest/web/WEB-INF/lib/javax.ejb-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/EJBTest/web/WEB-INF/lib/jboss-modules.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="EJBTest/web/Web" />
+      <element id="javaee-facet-resources" facet="EJBTest/ejb/EJB" />
+    </root>
+  </artifact>
+</component>
